@@ -1,1 +1,2 @@
 # prost-examples
+```cargo build```
