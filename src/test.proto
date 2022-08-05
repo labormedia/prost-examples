@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package prost.test;
+
+message Product {
+    enum Seed {
+        ZERO = 0;
+        ONE = 1;
+        TWO = 2;
+    }
+
+    string trend = 1;
+    Seed myseed = 2;
+}
